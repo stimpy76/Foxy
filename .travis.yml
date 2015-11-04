@@ -10,10 +10,13 @@ before_install:
 
   # for gradle output style
   - export TERM=dumb
-
+  - chmod +x gradlew
+  
   # environment info
-  - ./bash gradlew -v
+  - ./gradlew -v
   - uname -a
 
+  
+ - chmod +x gradlew
 # Let's try to build...
-script: ./bash gradlew clean build
+script: ./gradlew clean build
