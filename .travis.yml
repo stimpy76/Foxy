@@ -16,7 +16,5 @@ before_install:
   - ./gradlew -v
   - uname -a
 
-  
- - chmod +x gradlew
 # Let's try to build...
 script: ./gradlew clean build
