@@ -16,4 +16,4 @@ before_install:
   - uname -a
 
 # Let's try to build...
-script: ./gradlew clean build
+script: ./bash gradlew clean build
