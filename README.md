@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### FOXY ###
 
 Foxy is a AndroidApp for Ham Radio (mobile)Fox Hunting.
@@ -32,3 +33,6 @@ Here a link of movie to explain what fox funting with ham radio equipment. https
 
 * Repo owner or admin
 * Other community or team contact
+=======
+# foxy
+>>>>>>> ba66970436e81de20ed58e8146ff2ae969d3fdf1
