@@ -4,7 +4,7 @@ android:
     - platform-tool
         - tool
         - android-15
-        - build-tools-23.0.1
+        - build-tools-22.0.1
         - extra-android-m2repository
         - extra-google-m2repository
 
