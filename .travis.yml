@@ -12,7 +12,7 @@ before_install:
   - export TERM=dumb
 
   # environment info
-  - ./gradlew -v
+  - ./bash gradlew -v
   - uname -a
 
 # Let's try to build...
