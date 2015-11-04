@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="nl.robotixs.foxy.FoxgroupActivity">
+    <item
+        android:id="@+id/settings_foxgroup"
+        android:title="@string/settings_foxgroup"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout_foxgroup"
+        android:title="Logout"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

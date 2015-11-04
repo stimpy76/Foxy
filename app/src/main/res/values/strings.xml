@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Foxy</string>
+    <string name="settings_mainmenu">Settings</string>
+    <string name="settings_foxgroup">Settings</string>
+    <string name="add_foxgroup_mainmenu">Add Foxgroup</string>
+    <string name="logout_mainmenu">Logout</string>
+    <string name="logout_foxgroup">Logout</string>
+
+    <string name="title_activity_login">Foxy Login</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_register">Foxy Register</string>
+    <string name="title_activity_foxgroup"></string>
+    <string name="action_settings">Settings</string>
+</resources>

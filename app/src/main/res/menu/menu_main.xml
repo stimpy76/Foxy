@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item
+        android:id="@+id/addfoxgroupmainmenu"
+        android:title="@string/add_foxgroup_mainmenu"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/settingsmainmenu"
+        android:title="@string/settings_mainmenu"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logoutmainmenu"
+        android:title="@string/logout_mainmenu"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

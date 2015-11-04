@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:showIn="@layout/activity_foxgroup"
+    tools:context="nl.robotixs.foxy.FoxgroupActivityFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text_container"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Foxgroup Registration"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="20sp"
+            android:textColor="#6811ff"
+            android:textStyle="bold"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/fg_name_registerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/fg_name_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:inputType="text"
+                android:singleLine="true"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/fg_info_registerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/fg_info_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Info"
+                android:inputType="text"
+                android:singleLine="true"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/fg_avatar_registerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/fg_avatar_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Avatar"
+                android:inputType="text"
+                android:singleLine="true"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/fg_prov_registerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/fg_prov_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Province"
+                android:inputType="text"
+                android:singleLine="true"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/fg_country_registerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/fg_country_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Country"
+                android:inputType="text"
+                android:singleLine="true"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="13sp"
+            android:id="@+id/fg_register_button"
+            android:background="#444444"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#00fd0b"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="13sp"
+            android:id="@+id/fg_back_button"
+            android:background="#444444"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#00fd0b"/>
+    </LinearLayout>
+</RelativeLayout>
